@@ -1,0 +1,197 @@
+html {
+   height: 100%;
+}
+
+
+
+body {
+	font-family:Tahoma, Geneva, sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+		
+}
+
+
+nav {
+  display: none;
+}
+
+#navbar {
+	background-color: red;
+
+}
+
+#brand {
+	color: white;
+	font-size: 2em;
+	font-family:Courier, monospace;
+	font-weight: bold;
+}
+
+
+#navLinks a {
+	color: white;
+}
+
+#navLinks a:hover {
+	background-color: black;
+}
+
+#myImage {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+#introContainer {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 10;
+  background: #EF494F;
+  padding-bottom: 150px;
+  color: white;
+}
+
+#introContainer button{
+	background-color: #404040;
+	color: white;
+}
+
+#introContainer h1{
+
+}
+
+@media screen and (max-width: 767px) {
+
+#myImage {
+
+	margin-top:25%;
+}
+
+button {
+	margin-top: 2%;
+}
+
+}
+
+#social-Media-buttons {
+	margin-top: 2%;
+
+}
+
+
+#social-Media-buttons button {
+	padding-top: 0.5%;
+	padding-bottom:0.5%;
+}
+
+
+
+.social-icon {
+	padding-right: 3px;
+}
+
+#linkedin-icon {
+	margin-top :-3px;
+	padding-right: 3px;
+	position: relative;
+	bottom: 1px;
+}
+
+
+#enter_btn {
+  color: white;
+  width: 100px;
+  height: auto;
+  background: #404040;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 5px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#about {
+  display: none;
+  margin-top: 5%;
+}
+
+#about h1 {
+
+	margin-bottom:3%;
+	margin-top: 5%;
+
+}
+
+#about p {
+	font-size: 1.5em;
+}
+
+
+#portfolio h1 {
+
+	margin-bottom:3%;
+	margin-top: 5%;
+
+}
+
+#portfolio img:hover{
+	opacity:0.4;
+}
+
+
+.thumbnail-image {
+	width: 600px;
+	height:400px;
+	border: 2px solid black;
+
+}
+
+.thumbnail {
+	width:90%;
+	height:375px;
+		border: 3px solid black;
+		overflow: hidden;
+}
+
+@media screen and (max-width: 650px) {
+    #about-container {
+        font-size: 0.7em;
+    }
+
+    #contact h3{
+    	font-size: 1.5em;
+    }
+}
+   
+
+footer {
+	margin: 0;
+	color: white;
+	padding: 5px 0 20px 0;
+	overflow: hidden;
+	background-color:#333333;
+	margin-top: 3%;
+
+}
+#portfolio {
+  display: none;
+}
+
+#contact {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+
+
+
+
