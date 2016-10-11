@@ -5,6 +5,7 @@ html {
 
 
 body {
+
 	font-family:Tahoma, Geneva, sans-serif;
 	height: 100%;
 	margin: 0;
@@ -13,17 +14,23 @@ body {
 		
 }
 
+/* navigation */
+
 
 nav {
+
   display: none;
+
 }
 
 #navbar {
+
 	background-color: red;
 
 }
 
 #brand {
+
 	color: white;
 	font-size: 2em;
 	font-family:Courier, monospace;
@@ -32,21 +39,28 @@ nav {
 
 
 #navLinks a {
+
 	color: white;
 }
 
 #navLinks a:hover {
+
 	background-color: black;
 }
 
+/* Landing page/intro */
+
 #myImage {
+
   width: 250px;
-  height: auto;
-  border-radius: 50%;
+  height:250px;
+  border-radius: 100%;
   margin-top: 5%;
+
 }
 
 #introContainer {
+
   width: 100%;
   height: auto;
   position: absolute;
@@ -54,37 +68,34 @@ nav {
   background: #EF494F;
   padding-bottom: 150px;
   color: white;
+
 }
 
 #introContainer button{
+
 	background-color: #404040;
 	color: white;
 }
 
-#introContainer h1{
 
-}
-
-@media screen and (max-width: 767px) {
-
-#myImage {
-
-	margin-top:25%;
-}
 
 button {
+
 	margin-top: 2%;
 }
+
 
 }
 
 #social-Media-buttons {
+
 	margin-top: 2%;
 
 }
 
 
 #social-Media-buttons button {
+
 	padding-top: 0.5%;
 	padding-bottom:0.5%;
 }
@@ -92,10 +103,12 @@ button {
 
 
 .social-icon {
+
 	padding-right: 3px;
 }
 
 #linkedin-icon {
+
 	margin-top :-3px;
 	padding-right: 3px;
 	position: relative;
@@ -104,6 +117,7 @@ button {
 
 
 #enter_btn {
+
   color: white;
   width: 100px;
   height: auto;
@@ -114,11 +128,16 @@ button {
   font-size: 1.5em;
   border-radius: 5px;
   cursor: pointer;
+
 }
 
+/* about section */
+
 #about {
+
   display: none;
   margin-top: 5%;
+
 }
 
 #about h1 {
@@ -128,9 +147,12 @@ button {
 
 }
 
-#about p {
+#about p,ul {
+
 	font-size: 1.5em;
 }
+
+/* portfolio */
 
 
 #portfolio h1 {
@@ -140,12 +162,22 @@ button {
 
 }
 
-#portfolio img:hover{
-	opacity:0.4;
+#portfolio a {
+
+	text-decoration: underline;
+	font-size:1.2em;
+	margin-right: 7px;
+
+}
+
+#porfolio .col-xs-12{
+
+	display: inline;
 }
 
 
 .thumbnail-image {
+
 	width: 600px;
 	height:400px;
 	border: 2px solid black;
@@ -154,10 +186,42 @@ button {
 
 .thumbnail {
 	width:90%;
-	height:375px;
-		border: 3px solid black;
-		overflow: hidden;
+	height:500px;
+	border: 3px solid black;
+	overflow: hidden;
 }
+
+   
+
+footer {
+
+	margin: 0;
+	color: white;
+	padding: 5px 0 20px 0;
+	overflow: hidden;
+	background-color:#333333;
+	margin-top: 3%;
+
+}
+
+/*for landing page animation*/
+
+#portfolio {
+
+  display: none;
+}
+
+#contact {
+
+  display: none;
+}
+
+footer {
+
+  display: none;
+}
+
+/*media queries*/
 
 @media screen and (max-width: 650px) {
     #about-container {
@@ -168,27 +232,12 @@ button {
     	font-size: 1.5em;
     }
 }
-   
 
-footer {
-	margin: 0;
-	color: white;
-	padding: 5px 0 20px 0;
-	overflow: hidden;
-	background-color:#333333;
-	margin-top: 3%;
+@media screen and (max-width: 767px) {
 
-}
-#portfolio {
-  display: none;
-}
+#myImage {
 
-#contact {
-  display: none;
-}
-
-footer {
-  display: none;
+	margin-top:25%;
 }
 
 
